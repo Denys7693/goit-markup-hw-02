@@ -1,7 +1,12 @@
 .address {
   font-style: normal;
 }
-
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
 /*==header==*/
 
 .logo {
