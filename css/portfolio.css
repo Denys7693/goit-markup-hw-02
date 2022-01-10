@@ -1,3 +1,8 @@
+.hidden {
+  font-size: 1px;
+  color: #fff;
+}
+
 .portfolio-navigation {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -7,7 +12,14 @@
   letter-spacing: 0.03em;
   color: #212121;
   background-color: #f5f4fa;
+  cursor: pointer;
 }
+
+.but-activ {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
 .portfolio-navigation:hover,
 .portfolio-navigation:focus {
   background-color: #2196f3;
