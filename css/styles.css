@@ -17,6 +17,11 @@ a {
 body {
   font-family: "Roboto", sans-serif;
 }
+:root {
+  --blue-color: #2196f3;
+  --white-color: #ffffff;
+}
+
 /* ----------header---------- */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -27,7 +32,7 @@ body {
   color: #000000;
 }
 .logo-color {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 
 .navigation-list-link {
@@ -38,18 +43,18 @@ body {
 }
 
 .link-aktive {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .link-aktive::after {
   content: "";
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .link-site::after {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 
 .address-mail-tel {
@@ -61,7 +66,7 @@ body {
 }
 .address-mail-tel:hover,
 .address-mail-tel:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 
 /* ----------end header---------- */
@@ -76,19 +81,17 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  color: #fff;
+  color: var(--white-color);
   text-align: center;
 }
 .hero-btn {
   font-weight: bold;
   font-size: 16px;
   cursor: pointer;
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--white-color);
+  background-color: var(--blue-color);
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
   margin-left: 480px;
 }
 .hero-btn:hover,
@@ -157,7 +160,7 @@ body {
 }
 
 .footer-logo {
-  color: #fff;
+  color: var(--white-color);
 }
 .footer-address {
   font-style: normal;
@@ -166,7 +169,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .contakt-mail-tel {
   font-size: 14px;
@@ -176,6 +179,6 @@ body {
 }
 .contakt-mail-tel:hover,
 .contakt-mail-tel:focus {
-  color: #fff;
+  color: var(--white-color);
 }
 /* ----------end footer---------- */ ;
